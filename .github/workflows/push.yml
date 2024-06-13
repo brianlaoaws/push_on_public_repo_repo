@@ -1,13 +1,11 @@
-name: CloudFormation Guard Validate
+name: CloudFormation Guard validate
 
 on:
-  pull_request:
+  push:
 
 jobs:
   guard:
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
     name: CloudFormation Guard validate
     steps:
       - name: CloudFormation Guard validate
