@@ -12,4 +12,4 @@ jobs:
         uses: aws-cloudformation/cloudformation-guard@action-v0.0.3
         with:
           rules: './rules'
-          data: './no_data'
+          data: './data'
